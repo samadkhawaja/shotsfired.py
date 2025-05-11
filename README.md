@@ -129,4 +129,10 @@ This hybrid request satisfies both the token check (via `$_REQUEST` reading the 
 
 ---
 
+## Disclaimer
+
+This tool is intended solely for **educational purposes** and for use in authorized security testing environments (e.g., your own DVWA instance). Unauthorized use against systems you do not own or have explicit permission to test is illegal and unethical. The author assumes no liability and is not responsible for any misuse or damage caused by this script.
+
+---
+
 ## Example Output (Success)
