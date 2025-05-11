@@ -129,7 +129,7 @@ This hybrid request satisfies both the token check (via `$_REQUEST` reading the 
 
 ---
 
-## Example-Output (Success)
+## Example Output (Success)
 
 ---
 
