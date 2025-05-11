@@ -1,9 +1,9 @@
-# _________.__            __           ___________.__                   .___
-#/   _____/|  |__   _____/  |_  ______ \_   _____/|__|______   ____   __| _/
-# \_____  \ |  |  \ /  _ \   __\/  ___/  |    __)  |  \_  __ \_/ __ \ / __ | 
-# /        \|   Y  (  <_> )  |  \___ \   |     \   |  ||  | \/\  ___// /_/ | 
-#/_______  /|___|  /\____/|__| /____  >  \___  /   |__||__|    \___  >____ | 
-#        \/      \/                 \/       \/                    \/     \/ 
+#     _________.__            __           ___________.__                   .___
+#    /   _____/|  |__   _____/  |_  ______ \_   _____/|__|______   ____   __| _/
+#     \_____  \ |  |  \ /  _ \   __\/  ___/  |    __)  |  \_  __ \_/ __ \ / __ | 
+#     /        \|   Y  (  <_> )  |  \___ \   |     \   |  ||  | \/\  ___// /_/ | 
+#    /_______  /|___|  /\____/|__| /____  >  \___  /   |__||__|    \___  >____ | 
+#            \/      \/                 \/       \/                    \/     \/ 
 
 import requests
 import re
@@ -44,7 +44,7 @@ headers = {
     'Referer': TARGET_URL # Keep the base URL as referer
 }
 
-# --- fetch_csrf_token function remains the same as the previous script ---
+# --- fetch_csrf_token function ---
 def fetch_csrf_token():
     """Fetches a fresh CSRF token from the target page."""
     print("[*] Attempting to fetch a fresh CSRF token...")
