@@ -89,7 +89,7 @@ This hybrid request satisfies both the token check (via `$_REQUEST` reading the 
 
 1.  Clone the repository or download `shotsfired.py`:
     ```bash
-    git clone <your_repository_url_here>
+    git clone https://github.com/samadkhawaja/shotsfired.py
     cd shotsfired
     ```
     (Or just download the `shotsfired.py` file directly)
