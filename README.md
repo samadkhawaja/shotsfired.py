@@ -130,9 +130,7 @@ This hybrid request satisfies both the token check (via `$_REQUEST` reading the 
 ---
 
 ## Example Output (Success)
-
-└─$ python3 shotsfired.py
-
+        ```bash
 [!] Disabled InsecureRequestWarning for requests (verify=False used).
 --- Starting DVWA High CSRF Password Change Attempt (Exploiting GET Params) ---
 
@@ -145,6 +143,7 @@ This hybrid request satisfies both the token check (via `$_REQUEST` reading the 
 
 --- Script Finished ---
 ✅ Password change exploiting GET parameters was successful.
+         ```
 
 ---
 
